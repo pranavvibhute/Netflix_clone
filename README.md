@@ -130,7 +130,11 @@ npm run dev
 Here is a preview of the AI-powered Netflix Clone:
 
 ![Homepage Screenshot](frontend/src/screenshots/homepage.png)
-
+![Movie Page](frontend/src/screenshots/movie_page.png)
+![Related Movies](frontend/src/screenshots/related_movies.png)
+![Login Page](frontend/src/screenshots/login.png)
+![AI Questions](frontend/src/screenshots/ai_questions.png)
+![AI Recommends](frontend/src/screenshots/ai_recommends.png)
 
 ---
 
