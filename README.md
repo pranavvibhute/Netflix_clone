@@ -127,17 +127,28 @@ npm run dev
 
 ## 📸 Preview
 
-HOME PAGE:
+## HOME PAGE:
+
 ![Homepage Screenshot](frontend/src/screenshots/homepage.png)
-MOVIE PAGE:
+
+## MOVIE PAGE:
+
 ![Movie Page](frontend/src/screenshots/movie_page.png)
-RELATED MOVIES:
+
+## RELATED MOVIES:
+
 ![Related Movies](frontend/src/screenshots/related_movies.png)
-LOGIN PAGE:
+
+## LOGIN PAGE:
+
 ![Login Page](frontend/src/screenshots/login.png)
-AI QUESTIONS:
+
+## AI QUESTIONS:
+
 ![AI Questions](frontend/src/screenshots/ai_questions.png)
-AI RECOMMENDS:
+
+## AI RECOMMENDS:
+
 ![AI Recommends](frontend/src/screenshots/ai_recommends.png)
 
 ---
