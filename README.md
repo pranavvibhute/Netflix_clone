@@ -22,6 +22,7 @@ Backend: [https://netflix-clone-iim8.onrender.com](https://netflix-clone-iim8.on
 * [Vite](https://vitejs.dev/)
 * [react-hot-toast](https://react-hot-toast.com/)
 * [DiceBear API](https://www.dicebear.com/) – for profile avatars
+* [TMDB API](https://www.themoviedb.org/) – 🎥 TMDB API for fetching trending/popular movie data
 
 ### 🧠 AI Integration
 
