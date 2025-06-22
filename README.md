@@ -127,13 +127,17 @@ npm run dev
 
 ## 📸 Preview
 
-Here is a preview of the AI-powered Netflix Clone:
-
+HOME PAGE:
 ![Homepage Screenshot](frontend/src/screenshots/homepage.png)
+MOVIE PAGE:
 ![Movie Page](frontend/src/screenshots/movie_page.png)
+RELATED MOVIES:
 ![Related Movies](frontend/src/screenshots/related_movies.png)
+LOGIN PAGE:
 ![Login Page](frontend/src/screenshots/login.png)
+AI QUESTIONS:
 ![AI Questions](frontend/src/screenshots/ai_questions.png)
+AI RECOMMENDS:
 ![AI Recommends](frontend/src/screenshots/ai_recommends.png)
 
 ---
