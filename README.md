@@ -1,4 +1,4 @@
-# 🎮 Netflix Clone with AI Movie Recommendations
+# 🎬 Netflix Clone with AI Movie Recommendations
 
 A full-stack Netflix-inspired web application with **secure user authentication**, **dynamic AI-powered movie recommendations**, and a **modern UI**. Built using the MERN stack, Zustand, Tailwind CSS, and integrated with **Google Gemini (`gemini-2.0-flash`)** for personalized suggestions.
 
@@ -127,7 +127,9 @@ npm run dev
 
 ## 📸 Preview
 
-> Add screenshots of the landing page, login page, and recommendation output here
+Here is a preview of the AI-powered Netflix Clone:
+
+![Homepage Screenshot](./src/screenshots/homepage.png)
 
 ---
 
