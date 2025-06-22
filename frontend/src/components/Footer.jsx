@@ -33,7 +33,7 @@ const Footer = () => {
                 <li>Contact Us</li>
             </ul>
         </div>
-        <p className='pt-5 text-center'>© 2025 Rando, Inc. All rights reserved.</p>
+        <p className='pt-5 text-center'>Made By Pranav Vibhute ©2025</p>
     </div>
   )
 }
