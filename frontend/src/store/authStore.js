@@ -3,7 +3,7 @@
 
  axios.defaults.withCredentials = true; // Enable sending cookies with requests
 
- const API_URL = "http://localhost:5000/api"; // Base URL for the API
+ const API_URL = "https://netflix-clone-iim8.onrender.com/api"; // Base URL for the API
 
  export const useAuthStore = create((set)=>({
     // initial states
