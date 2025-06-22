@@ -56,8 +56,8 @@ app.post("/api/signup", async(req, res)=> {
 
             res.cookie("token", token, {
                 httpOnly: true,
-                secure: process.env.NODE_ENV === "production",
-                sameSite: "strict",
+                secure: true,
+                sameSite: "None",
             })
             return res.status(200).json({ user: userDoc, message:"User Created Successfully"});
         }
@@ -90,8 +90,8 @@ app.post("/api/login", async(req, res)=> {
 
             res.cookie("token", token, {
                 httpOnly: true,
-                secure: process.env.NODE_ENV === "production",
-                sameSite: "strict",
+                secure: true,
+                sameSite: "None",
             })
             return res.status(200).json({ user: userDoc, message:"Logged In Successfully"});
         }
