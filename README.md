@@ -155,16 +155,6 @@ Recommend 10 relaxed English comedy movies from the 2000s that are medium length
 * **MongoDB Atlas:** Database with static IP whitelisting
 * **Static Outbound IPs** used for DB access:
 
-  ```
-  44.226.145.213
-  54.187.200.255
-  34.213.214.55
-  35.164.95.156
-  44.230.95.183
-  44.229.200.200
-  ```
-
----
 
 ## 📚 License
 
