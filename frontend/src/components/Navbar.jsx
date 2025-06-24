@@ -38,19 +38,19 @@ const Navbar = () => {
         <Link to={"/tv"}>
         <li className="cursor-pointer hover:text-[#e50914]">TV Shows</li>
         </Link>
-        <Link to={"/movies-section"}>
+        <Link to={"/movies"}>
         <li className="cursor-pointer hover:text-[#e50914]">Movies</li>
         </Link>
-        <Link to={"/anime-section"}>
+        <Link to={"/anime"}>
         <li className="cursor-pointer hover:text-[#e50914]">Anime</li>
         </Link>
-        <Link to={"/games-section"}>
+        <Link to={"/games"}>
         <li className="cursor-pointer hover:text-[#e50914]">Games</li>
         </Link>
-        <Link to={"/new-and-popular-section"}>
+        <Link to={"/new-and-popular"}>
         <li className="cursor-pointer hover:text-[#e50914]">New & Popular</li>
         </Link>
-        <Link to={"/upcoming-section"}>
+        <Link to={"/upcoming"}>
         <li className="cursor-pointer hover:text-[#e50914]">Upcoming</li>
         </Link>
       </ul>

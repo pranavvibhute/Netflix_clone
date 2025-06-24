@@ -16,11 +16,19 @@ const TV_Shows_CardList = ({title, category}) => {
       };
       
       useEffect(() => {
-        fetch(`https://api.themoviedb.org/3/tv/${category}?language=en-US&page=1`, options)
-        .then(res => res.json())
-        .then(res =>{ console.log("full response:" ,res); setData(res.results)})
-        .catch(err => console.error(err));
-      }, []);
+  const isDiscovery = category.includes("with_genres") || category.includes("original_language");
+  const url = isDiscovery
+    ? `https://api.themoviedb.org/3/discover/tv?language=en-US&page=1&${category}`
+    : `https://api.themoviedb.org/3/tv/${category}?language=en-US&page=1`;
+
+  fetch(url, options)
+    .then(res => res.json())
+    .then(res => {
+      console.log("Response:", res);
+      setData(res.results || []); // Prevents "undefined.map"
+    })
+    .catch(err => console.error(err));
+}, [category]);
 
   return (
     <div className='text-white md:px-4 '>

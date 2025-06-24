@@ -15,6 +15,7 @@ import GamesSection from './pages/GamesSection.jsx'
 import NewAndPopularSection from './pages/NewAndPopularSection.jsx'
 import UpcomingSection from './pages/UpcomingSection.jsx'
 import TVPage from './pages/TVPage.jsx'
+import GamePage from './pages/GamePage.jsx'
 
 const App = () => {
     const {fetchUser, fetchingUser} = useAuthStore();
@@ -35,13 +36,14 @@ const App = () => {
         <Routes>
             <Route path={"/"} element={<Homepage />} />
             <Route path={"/tv"} element={<TVShowsSection />} />
-            <Route path={"/movies-section"} element={<MoviesSection />} />
-            <Route path={"/anime-section"} element={<AnimeSection />} />
-            <Route path={"/games-section"} element={<GamesSection />} />
-            <Route path={"/new-and-popular-section"} element={<NewAndPopularSection />} />
-            <Route path={"/upcoming-section"} element={<UpcomingSection />} />
+            <Route path={"/movies"} element={<MoviesSection />} />
+            <Route path={"/anime"} element={<AnimeSection />} />
+            <Route path={"/games"} element={<GamesSection />} />
+            <Route path={"/new-and-popular"} element={<NewAndPopularSection />} />
+            <Route path={"/upcoming"} element={<UpcomingSection />} />
             <Route path={"/movie/:id"} element={<MoviePage />} />
             <Route path={"/tv/:id"} element={<TVPage />} />
+            <Route path={"/games/:id"} element={<GamePage />} />
             <Route path={"/signin"} element={<SignIn />} />
             <Route path={"/signup"} element={<SignUp />} />
             <Route path={"/ai-recommendations"} element={<AIRecommendations />} />
