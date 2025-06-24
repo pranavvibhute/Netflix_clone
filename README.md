@@ -22,6 +22,7 @@ Backend: [https://netflix-clone-iim8.onrender.com](https://netflix-clone-iim8.on
 * [Vite](https://vitejs.dev/)
 * [react-hot-toast](https://react-hot-toast.com/)
 * [DiceBear API](https://www.dicebear.com/) – for profile avatars
+* [TMDB API](https://www.themoviedb.org/) – 🎥 TMDB API for fetching trending/popular movie data
 
 ### 🧠 AI Integration
 
@@ -127,10 +128,29 @@ npm run dev
 
 ## 📸 Preview
 
-Here is a preview of the AI-powered Netflix Clone:
+## HOME PAGE:
 
-![Homepage Screenshot](./frontend/src/screenshots/homepage.jpg)
+![Homepage Screenshot](frontend/src/screenshots/homepage.png)
 
+## MOVIE PAGE:
+
+![Movie Page](frontend/src/screenshots/movie_page.png)
+
+## RELATED MOVIES:
+
+![Related Movies](frontend/src/screenshots/related_movies.png)
+
+## LOGIN PAGE:
+
+![Login Page](frontend/src/screenshots/login.png)
+
+## AI QUESTIONS:
+
+![AI Questions](frontend/src/screenshots/ai_questions.png)
+
+## AI RECOMMENDS:
+
+![AI Recommends](frontend/src/screenshots/ai_recommends.png)
 
 ---
 
