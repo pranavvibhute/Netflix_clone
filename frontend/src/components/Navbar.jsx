@@ -32,13 +32,27 @@ const Navbar = () => {
       </Link>
 
       <ul className="hidden xl:flex space-x-6">
+        <Link to={"/"}>
         <li className="cursor-pointer hover:text-[#e50914]">Home</li>
+        </Link>
+        <Link to={"/tv"}>
         <li className="cursor-pointer hover:text-[#e50914]">TV Shows</li>
+        </Link>
+        <Link to={"/movies-section"}>
         <li className="cursor-pointer hover:text-[#e50914]">Movies</li>
+        </Link>
+        <Link to={"/anime-section"}>
         <li className="cursor-pointer hover:text-[#e50914]">Anime</li>
+        </Link>
+        <Link to={"/games-section"}>
         <li className="cursor-pointer hover:text-[#e50914]">Games</li>
+        </Link>
+        <Link to={"/new-and-popular-section"}>
         <li className="cursor-pointer hover:text-[#e50914]">New & Popular</li>
+        </Link>
+        <Link to={"/upcoming-section"}>
         <li className="cursor-pointer hover:text-[#e50914]">Upcoming</li>
+        </Link>
       </ul>
       <div className="flex items-center space-x-4 relative">
         <div className="relative hidden md:inline-flex">

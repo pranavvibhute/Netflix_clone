@@ -4,11 +4,10 @@ const Footer = () => {
   return (
     <div className='text-[#737373] md:px-10'>
         <div className='py-15 text-center'>
-        <p>Developed By Rando</p>
-        <p>Read about NetFlix TV shows and movies and watch bonus videos on Rando.com </p>
+        <p>Read about NetFlix TV shows and movies and watch bonus videos on YouTube.com </p>
         </div>
-        <p className='pb-5'>Questions? Contact Us.</p>
-        <div className='grid grid-cols-2 md:grid-cols-4 gap-5 text-sm pb-10 max-w-5xl'>
+        <p className='pb-5 text-center'>Questions? Contact Us.</p>
+        <div className='grid grid-cols-2 md:grid-cols-4 gap-5 text-sm pb-10 max-w-5xl mx-auto'>
             <ul className='flex flex-col space-y-2'>
                 <li>FAQ</li>
                 <li>Investor Relations</li>

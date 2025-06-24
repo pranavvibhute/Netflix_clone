@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 
-const CardList = ({title, category}) => {
+const TV_Shows_CardList = ({title, category}) => {
 
     const [data, setData] = useState([])
 
@@ -16,9 +16,9 @@ const CardList = ({title, category}) => {
       };
       
       useEffect(() => {
-        fetch(`https://api.themoviedb.org/3/movie/${category}?language=en-US&page=1`, options)
+        fetch(`https://api.themoviedb.org/3/tv/${category}?language=en-US&page=1`, options)
         .then(res => res.json())
-        .then(res => setData(res.results))
+        .then(res =>{ console.log("full response:" ,res); setData(res.results)})
         .catch(err => console.error(err));
       }, []);
 
@@ -29,9 +29,9 @@ const CardList = ({title, category}) => {
         <Swiper slidesPerView={"auto"} spaceBetween={10} className="mySwiper">
             {data.map((item, id) => (
                 <SwiperSlide key={id} className='max-w-72'>
-                    <Link to={`/movie/${item.id}`}>
+                    <Link to={`/tv/${item.id}`}>
                     <img src={`https://image.tmdb.org/t/p/w500/${item.backdrop_path}`} alt="" className='h-44 w-full object-center rounded object-cover'/>
-                    <p className='text-center pt-2'>{item.original_title}</p>
+                    <p className='text-center pt-2'>{item.original_name}</p>
                     </Link>
                 </SwiperSlide>
             ))}
@@ -40,5 +40,4 @@ const CardList = ({title, category}) => {
   )
 }
 
-export default CardList
-
+export default TV_Shows_CardList
