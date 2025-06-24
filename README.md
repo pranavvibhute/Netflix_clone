@@ -23,6 +23,7 @@ Backend: [https://netflix-clone-iim8.onrender.com](https://netflix-clone-iim8.on
 * [react-hot-toast](https://react-hot-toast.com/)
 * [DiceBear API](https://www.dicebear.com/) – for profile avatars
 * [TMDB API](https://www.themoviedb.org/) – 🎥 TMDB API for fetching trending/popular movie data
+* [RAWG API](https://rawg.io/) – 🎮 RAWG API for fetching trending/popular games data
 
 ### 🧠 AI Integration
 
